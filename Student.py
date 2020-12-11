@@ -6,6 +6,8 @@ class Student:
         self.root.title("Student Management System")
         self.root.geometry("1350x700+0+0")
 
+        title=Label(self.root,text="Student Management System",font=("times new roman",40,"bold"),bg="yellow",fg="red")
+        title.pack(side=TOP)
 
 root =Tk()
 ob=Student(root)
